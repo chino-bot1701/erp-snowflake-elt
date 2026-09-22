@@ -1,0 +1,9 @@
+# Production pipeline
+snowflake-connector-python[pandas]>=3.6
+pandas>=2.0
+requests>=2.31
+cryptography>=41.0
+psutil>=5.9
+
+# The demo (scripts/run_demo.py) needs none of the above:
+# it runs on the standard library alone.

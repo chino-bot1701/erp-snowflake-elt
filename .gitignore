@@ -1,0 +1,76 @@
+# ==========================================================================
+#  .gitignore base — se copia a los 6 repos
+#  Primera línea de defensa. NO sustituye a la verificación de la Fase 6.
+# ==========================================================================
+
+# ---- Secretos: nunca, bajo ningún nombre ----
+*.pem
+*.p8
+*.key
+*.pfx
+*.jks
+.env
+.env.*
+!.env.example
+secrets.*
+credentials*
+*_credentials*
+
+# ---- R ----
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+*.Rproj
+rsconnect/
+packrat/
+renv/library/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Binarios y dependencias pesadas ----
+*.jar
+*.zip
+*.7z
+*.tar.gz
+*.mp4
+*.mp3
+*.wav
+
+# ---- Datos: solo entran los fixtures ficticios declarados ----
+data/real/
+respaldos/
+*.xlsm
+*.kmz
+/*.xlsx
+/*.csv
+!fixtures/**/*.csv
+!fixtures/**/*.parquet
+!data/demo/**
+
+# ---- Sistema operativo y editores ----
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*
+.vscode/
+.idea/
+
+# ---- Salidas de ejecución ----
+logs/
+*.log
+out/
+dist/
+build/
+out/
+*.sqlite
