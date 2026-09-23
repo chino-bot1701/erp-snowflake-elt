@@ -5,7 +5,7 @@
 > Built at a real estate and media group in Mexico.
 > **Anonymized portfolio version — all data is synthetic.**
 
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB) ![Snowflake](https://img.shields.io/badge/Snowflake-warehouse-29B5E8) ![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB) ![Snowflake](https://img.shields.io/badge/Snowflake-warehouse-29B5E8)
 
 ---
 
@@ -220,7 +220,3 @@ This is a real production pipeline, rewritten for public release:
 - Internal notes, dates and decisions that referenced the employer were removed.
 
 The architecture, the measurements quoted above and the engineering decisions are real.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
